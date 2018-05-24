@@ -1,5 +1,5 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
-import urllib.parse, json, time, ast, random
+import urllib.parse, json, time, ast, random, os
 from pprint import pprint
 from threading import Thread
 
@@ -30,7 +30,14 @@ class HTTP(BaseHTTPRequestHandler):
 		content_length= None
 		data_json = None
 		data =None
+		filedir = './www/'
 		try:
+			if (self.path):
+				filedir = filedir + self.path 
+				if (not os.path.isdir(filedir)):
+					os.makedirs(filedir)
+
+			filedir = filedir + '/R_'
 			content_length = int(self.headers['Content-Length']) # <--- Gets the size of data
 			data = self.rfile.read(int(content_length)).decode('utf-8')
 			print('data' + str(data))
@@ -45,7 +52,7 @@ class HTTP(BaseHTTPRequestHandler):
 
 			
 		#print('data_json' + str(data))
-		html_file = open('./index.html','a')
+		html_file = open(filedir + str(data_json['worker_id']) +'.html','a')
 		html_file.write("<p>" + str(data_json) + "<p><br>")
 		html_file.close()
 		data_back = "received"

@@ -1,0 +1,391 @@
+{
+    "image_url": "osabuoun/prime_numbers",
+    "params": [],
+    "single_task_duration": "5#m",
+    "replica_min": "4",
+    "replica_max": "10",
+    "command": [],
+	"reserve_memory"		: "100mb" ,
+	"reserve_cpu"			: "0.1" ,
+    "experiment_deadline": "45#m" ,
+    "jobs": [
+        {
+            "params": [],
+            "id": "job_id_0",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_0",
+                    "data": [
+                        "{\"from\":\"10\", \"to\": \"30000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_1",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_1",
+                    "data": [
+                        "{\"from\":\"30000\", \"to\": \"50000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_2",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_2",
+                    "data": [
+                        "{\"from\":\"100000\", \"to\": \"200000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_3",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_3",
+                    "data": [
+                        "{\"from\":\"20000\", \"to\": \"30000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_4",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_4",
+                    "data": [
+                        "{\"from\":\"30000\", \"to\": \"40000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_5",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_5",
+                    "data": [
+                        "{\"from\":\"40000\", \"to\": \"50000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_6",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_6",
+                    "data": [
+                        "{\"from\":\"50000\", \"to\": \"60000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_7",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_7",
+                    "data": [
+                        "{\"from\":\"60000\", \"to\": \"70000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_8",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_8",
+                    "data": [
+                        "{\"from\":\"80000\", \"to\": \"90000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_9",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_9",
+                    "data": [
+                        "{\"from\":\"3000\", \"to\": \"8000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_10",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_10",
+                    "data": [
+                        "{\"from\":\"50000\", \"to\": \"80000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_11",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_11",
+                    "data": [
+                        "{\"from\":\"30000\", \"to\": \"50000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_12",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_12",
+                    "data": [
+                        "{\"from\":\"100000\", \"to\": \"200000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_13",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_13",
+                    "data": [
+                        "{\"from\":\"20000\", \"to\": \"30000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_14",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_14",
+                    "data": [
+                        "{\"from\":\"30000\", \"to\": \"40000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_15",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_15",
+                    "data": [
+                        "{\"from\":\"40000\", \"to\": \"50000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_16",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_16",
+                    "data": [
+                        "{\"from\":\"50000\", \"to\": \"60000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_17",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_17",
+                    "data": [
+                        "{\"from\":\"60000\", \"to\": \"70000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_18",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_18",
+                    "data": [
+                        "{\"from\":\"80000\", \"to\": \"90000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_19",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_19",
+                    "data": [
+                        "{\"from\":\"3000\", \"to\": \"8000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+        {
+            "params": [],
+            "id": "job_id_20",
+            "data": [],
+            "tasks": [
+                {
+                    "id": "task_id_20",
+                    "data": [
+                        "{\"from\":\"50000\", \"to\": \"80000\", \"result_server\":\"http://31.171.247.237:8081/prime/exp_4/\"}"
+                    ],
+                    "command": [
+                        "python3", 
+                        "prime.py",
+                    ]
+                }
+            ],
+            "command": []
+        },
+    ],
+}
